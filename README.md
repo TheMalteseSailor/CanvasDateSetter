@@ -9,7 +9,7 @@ pip install selenium
 ```
 3. Chrome browser
 
-## What's it going?
+## What's it doing?
 1. It pops a chrome browser and resizes it.
 2. It enters your email
 3. The terminal will prompt for password
