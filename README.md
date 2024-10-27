@@ -21,6 +21,9 @@ Note 1: The script will pause on an error to prevent run away erronious data ent
 
 Note 2: After all the dates are entered it pauses so you can check the dates and save.
 
+Note 3: If you enter the password incorrectly, go to the browser and try again. The script will resume once you succeed.
+
+
 ## Usage
 Developed in notepad++ and tested in Windows' cmd.exe and Chrome, nothing else has been tested.
 
@@ -49,3 +52,5 @@ python3 set_dates.py -l https://[school].instructure.com/ -e sketchy.code@school
 ## Known issues
 1. Sometimes the first assignment will get skipped.
 2. Sometimes the weekely discussion assignments will all get assigned the same dates for courses with hundreds of assignments.
+3. If you modify the browser width to where it's too narrow, Canvas will modify the page layout, removing the tags I'm using to orient the script.
+  * a. The script will just sit there until you widden the window again.
