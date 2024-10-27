@@ -18,6 +18,7 @@ pip install selenium
 6. It will navigate to the Assignments page and start entering the dates
 
 Note 1: The script will pause on an error to prevent run away erronious data entry
+
 Note 2: After all the dates are entered it pauses so you can check the dates and save.
 
 ## Usage
